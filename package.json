@@ -1,0 +1,39 @@
+{
+  "name": "ahj-diploma",
+  "version": "1.0.0",
+  "description": "diploma",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "author": "CarolineFell",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^2.0.0",
+    "gitignore": "^0.6.0",
+    "http-event-stream": "^0.2.0",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "node-fetch": "^2.6.0",
+    "uuid": "^3.4.0",
+    "ws": "^7.3.0"
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarolineFell/ahj-diploma-server.git"
+  },
+  "keywords": [
+    "diploma"
+  ],
+  "bugs": {
+    "url": "https://github.com/CarolineFell/ahj-diploma-server/issues"
+  },
+  "homepage": "https://github.com/CarolineFell/ahj-diploma-server#readme"
+}
